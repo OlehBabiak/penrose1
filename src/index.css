@@ -9,6 +9,7 @@
 html,body {
   background-color: #292929 !important;
   height: 100vh;
+  width: 100%;
 }
 
 a{

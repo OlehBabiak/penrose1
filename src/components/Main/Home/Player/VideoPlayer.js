@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactPlayer from "react-player";
 import styles from './Player.module.css'
+import {videoUrl} from "../../../consnants";
 
 function VideoPlayer(props) {
     return (
         <div className={styles.player}>
             <ReactPlayer
-                width='160px'
-                height='90px'
-                url='https://www.youtube.com/watch?v=mpykT40_VBc'
+                width='100%'
+                height='100%'
+                url={videoUrl}
             />
         </div>
     );

@@ -1,5 +1,19 @@
 .player {
     position: absolute;
-    left: 168px;
     bottom: 383px;
+    width: 160px;
+    height: 90px;
+}
+
+@media (max-width: 1030px) {
+    .player {
+        position: static;
+    }
+}
+
+@media (max-width: 550px) {
+    .player {
+        position: static;
+        margin: 50px auto;
+    }
 }

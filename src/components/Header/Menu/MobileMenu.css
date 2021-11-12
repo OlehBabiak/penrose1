@@ -1,0 +1,17 @@
+.ui.dropdown>.dropdown.icon {
+    display: none;
+}
+
+.ui.dropdown .menu>.item {
+    color: #C445F4 !important;
+    text-transform: uppercase;
+    opacity: 1;
+    font: normal normal 600 18px/23px Source Sans Pro;
+    padding: 0 !important;
+}
+
+.ui.left:not(.top):not(.bottom).pointing.dropdown>.left.menu,
+.ui.dropdown>.left.menu .menu {
+padding: 10px;
+}
+

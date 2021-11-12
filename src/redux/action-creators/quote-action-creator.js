@@ -7,7 +7,6 @@ import {
 const startQuotesLoading = () => ({type: START_QUOTE_LOADING})
 const endQuotesLoading = () => ({type: END_QUOTE_LOADING})
 const setQuotes = (payload) => ({type: SET_QUOTES, payload})
-
 const loadQuotes = () => async (dispatch, getState) => {
     const hasItem = !!getState().quotes.length
     try {

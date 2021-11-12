@@ -1,0 +1,24 @@
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.menu-list li {
+    letter-spacing: 0.9px;
+    color: #C445F4;
+    text-transform: uppercase;
+    opacity: 1;
+    list-style-type: none;
+    text-align: left;
+    margin: 0 32px;
+    font: normal normal 600 18px/23px Source Sans Pro;
+    padding: 5px;
+}
+
+.menu-list li:hover {
+    background: #C445F4;
+    color: #e818a3;
+    border-radius: 5px;
+    transition: 1.5s;
+}
+

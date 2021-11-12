@@ -3,7 +3,6 @@ import {useSelector, useDispatch} from 'react-redux'
 import {loadQuotes} from '../../../../redux/action-creators'
 import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import Quote from "./Quote";
 import styles from './Carousel.module.css'
 import SwiperComponent from "../Swiper/SwiperComponent";
 

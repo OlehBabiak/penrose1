@@ -2,6 +2,7 @@
     margin: 0 auto;
     height: 100vh;
     width: 100%;
+    position: relative;
 }
 
 .center-content-wrapper {
@@ -33,11 +34,16 @@
     margin-right: 70px;
 }
 
-.left-block, .right-block {
+.left-block{
     position: absolute;
 }
 
-.right-block {
-    width: 312px;
-    height: 166px;
+.left-block {
+    left: 168px;
+    top: 85px;
+}
+
+.left-block img {
+    width: 283px;
+    height: 417px;
 }

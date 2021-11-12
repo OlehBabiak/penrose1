@@ -24,9 +24,7 @@ function MainContent(props) {
                     </div>
                 </div>
             </div>
-            <div className={styles['right-block']}>
                 <Carousel/>
-            </div>
         </div>
     );
 }

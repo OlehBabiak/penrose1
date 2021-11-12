@@ -3,7 +3,7 @@
     justify-content: space-between;
     margin-right: 70px;
 }
-.menu-list li {
+.menu-list li, a{
     letter-spacing: 0.9px;
     color: #C445F4;
     text-transform: uppercase;
@@ -14,7 +14,7 @@
     font: normal normal 600 18px/23px Source Sans Pro;
 }
 
-.menu-list li:hover {
+.menu-list li a:hover {
     background: #C445F4;
     color: #e818a3;
     border-radius: 5px;

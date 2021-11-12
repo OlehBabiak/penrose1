@@ -1,5 +1,5 @@
-.swiper {
-
+.swiper-wrapper {
+box-sizing: border-box;
 }
 
 .swiper-slide {
@@ -8,6 +8,7 @@
     color: white;
     padding: 0 20px;
     display: flex;
+    width: 310px ;
 }
 
 
@@ -17,9 +18,15 @@
 }
 
 .swiper-slide-active {
+    text-align: center;
     flex-direction: column;
+    font-size: 16px;
     justify-content: space-around;
     align-items: flex-end;
+    width: 275px !important;
+    color: white;
+    display: flex;
+    padding: 0 20px;
 }
 
 .swiper-pagination-bullet {
@@ -34,4 +41,8 @@
 }
 .swiper-button-disabled {
     display: none;
+}
+
+.swiper-slide-prev, .swiper-slide-next {
+
 }

@@ -11,7 +11,7 @@ import VideoPlayer from "./Player/VideoPlayer";
 function MainContent(props) {
     return (
         <div className={styles['background-img']}>
-            <div>
+            <div className={styles['left-block']}>
                 <VideoPlayer/>
                 <Image src={title} alt='Title'/>
             </div>
@@ -24,7 +24,7 @@ function MainContent(props) {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className={styles['right-block']}>
                 <Carousel/>
             </div>
         </div>

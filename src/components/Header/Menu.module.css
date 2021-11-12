@@ -10,9 +10,8 @@
     opacity: 1;
     list-style-type: none;
     text-align: left;
-    margin: 0 32px;
+    padding: 12px;
     font: normal normal 600 18px/23px Source Sans Pro;
-    padding: 5px;
 }
 
 .menu-list li:hover {

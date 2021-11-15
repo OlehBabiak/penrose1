@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../../Main/Main.module.css'
 
-function Kids(props) {
+function Kids () {
     return (
         <div className={styles.plug}>Kids</div>
     );

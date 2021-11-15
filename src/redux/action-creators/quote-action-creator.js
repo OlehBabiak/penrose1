@@ -15,9 +15,9 @@ const loadQuotes = () => async (dispatch, getState) => {
         const json = await resp.json();
         dispatch(setQuotes(json))
 
-    }catch (e) {
+    } catch (e) {
         console.error(e)
-    }finally {
+    } finally {
         dispatch(endQuotesLoading())
     }
 }

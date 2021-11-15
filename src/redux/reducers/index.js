@@ -1,6 +1,6 @@
-import {combineReducers} from 'redux'
+import { combineReducers } from 'redux'
 import quoteReducer from './qoute-reducer'
 
-export const reducer  = combineReducers({
+export const reducer = combineReducers({
     quotes: quoteReducer
 })

@@ -1,7 +1,7 @@
 import Header from "./components/Header/Header";
 import Routes from "./components/Routes";
 
-function App() {
+function App () {
     return (
         <>
             <Header/>

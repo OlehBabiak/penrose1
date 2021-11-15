@@ -1,7 +1,7 @@
 import React from 'react';
 import MainContent from "./MainContent";
 
-function Main(props) {
+function Main () {
     return (
         <>
             <MainContent/>

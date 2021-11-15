@@ -6,12 +6,12 @@ import Image from "./Image";
 import VideoPlayer from "./Player/VideoPlayer";
 import SwiperComponent from "./Swiper/SwiperComponent";
 
-function MainContent(props) {
+function MainContent () {
     return (
         <div className={styles['background-img']}>
             <div className={styles['left-block']}>
                 <Image src={title} alt='Title'/>
-                    <VideoPlayer/>
+                <VideoPlayer/>
             </div>
             <div className={styles['center-content-wrapper']}>
                 <div className={styles['background-img2']}>

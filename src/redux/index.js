@@ -1,6 +1,7 @@
-import {createStore, applyMiddleware} from 'redux'
-import {reducer} from "./reducers";
+import { createStore, applyMiddleware } from 'redux'
+import { reducer } from "./reducers";
 import thunk from 'redux-thunk'
+
 const persister = (store) => (next) => (action) => {
     next(action)
     const {quotes} = store.getState()

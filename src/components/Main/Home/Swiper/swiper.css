@@ -1,5 +1,5 @@
 .swiper-wrapper {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .swiper-slide {
@@ -8,9 +8,8 @@ box-sizing: border-box;
     color: white;
     padding: 0 20px;
     display: flex;
-    width: 310px ;
+    width: 310px;
 }
-
 
 
 .my-swiper {
@@ -23,7 +22,7 @@ box-sizing: border-box;
     font-size: 16px;
     justify-content: space-around;
     align-items: flex-end;
-    width: 275px ;
+    width: 275px;
     color: white;
     display: flex;
     padding: 0 20px;
@@ -32,13 +31,15 @@ box-sizing: border-box;
 .swiper-pagination-bullet {
     background: grey;
 }
+
 .swiper-pagination-bullet-active {
     background: white;
 }
 
-.swiper-button-prev, .swiper-button-next{
+.swiper-button-prev, .swiper-button-next {
     color: #C445F4;
 }
+
 .swiper-button-disabled {
     display: none;
 }

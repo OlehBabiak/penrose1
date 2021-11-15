@@ -5,9 +5,9 @@ import Men from "./Header/Menu/Store/Men";
 import Kids from "./Header/Menu/Store/Kids";
 import Contacts from "./Main/Contacts/Contacts";
 import Main from "./Main/Home/Main";
-import {Redirect, Route, Switch} from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
 
-function Routes(props) {
+function Routes () {
     return (
         <>
             <Switch>

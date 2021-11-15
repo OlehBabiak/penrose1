@@ -1,8 +1,8 @@
-.ui.dropdown>.dropdown.icon {
+.ui.dropdown > .dropdown.icon {
     display: none;
 }
 
-.ui.dropdown .menu>.item {
+.ui.dropdown .menu > .item {
     color: #C445F4 !important;
     text-transform: uppercase;
     opacity: 1;
@@ -10,8 +10,8 @@
     padding: 0 !important;
 }
 
-.ui.left:not(.top):not(.bottom).pointing.dropdown>.left.menu,
-.ui.dropdown>.left.menu .menu {
-padding: 10px;
+.ui.left:not(.top):not(.bottom).pointing.dropdown > .left.menu,
+.ui.dropdown > .left.menu .menu {
+    padding: 10px;
 }
 

@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './Header.module.css'
 import logo from '../../assets/Triangle.svg'
 import MenuItems from "../Header/Menu/Menu";
-import {urls} from '../consnants'
-import {Link} from "react-router-dom";
+import { urls } from '../consnants'
+import { Link } from "react-router-dom";
 
-function Header() {
+function Header () {
     return (
         <div className={styles['header-wrapper']}>
             <div className={styles['logo-wrapper']}>

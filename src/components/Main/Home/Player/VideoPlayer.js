@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactPlayer from "react-player";
 import styles from './Player.module.css'
-import {videoUrl} from "../../../consnants";
+import { videoUrl } from "../../../consnants";
 
-function VideoPlayer(props) {
+function VideoPlayer () {
     return (
         <div className={styles.player}>
             <ReactPlayer

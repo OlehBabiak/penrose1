@@ -3,6 +3,7 @@ import styles from './Header.module.css'
 import logo from '../../assets/Triangle.svg'
 import MenuItems from "../Header/Menu/Menu";
 import {urls} from '../consnants'
+import {Link} from "react-router-dom";
 
 function Header() {
     return (
@@ -11,7 +12,7 @@ function Header() {
                 <div className={styles.logo}>
                     <img src={logo} alt='Logo'/>
                 </div>
-                <div className={styles['logo-text']}>penrose</div>
+                <Link to='./' className={styles['logo-text']}>penrose</Link>
             </div>
             <MenuItems urls={urls}/>
         </div>
